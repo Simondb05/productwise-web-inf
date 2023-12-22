@@ -8,11 +8,8 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="nl">
-        <body>
-            <div>
-                <div className='bg-blue'/>
-            </div>
-            <main className='grow'>
+        <body className='grow max-h-screen bg-white' >
+            <main >
                 {children}
             </main>
         </body>
