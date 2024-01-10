@@ -11,8 +11,8 @@ const page = () => {
           <span className="text-green-500">supermarkthulp.</span>
         </div>
         <div className=" flex flex-column justify-center mt-10">
-          <Image src={tonyScreenshot} height={500} alt="Screenshot" />
-          <p>Alle </p>
+          {/* <Image src={tonyScreenshot} height={500} alt="Screenshot" />
+          <p>Alle </p> */}
         </div>
       </section>
     </div>
